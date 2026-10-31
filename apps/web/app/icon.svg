@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <style>
+    path, rect { fill: #18181b; }
+    @media (prefers-color-scheme: dark) {
+      path, rect { fill: #fafafa; }
+    }
+  </style>
+  <path d="M116 32 A96 96 0 0 0 32 128 A96 96 0 0 0 116 224 V192 A64 64 0 0 1 64 128 A64 64 0 0 1 116 64 Z"/>
+  <path d="M140 32 V64 A64 64 0 0 1 192 128 A64 64 0 0 1 140 192 V224 A96 96 0 0 0 224 128 A96 96 0 0 0 140 32 Z"/>
+  <rect x="96" y="106" width="64" height="16" rx="4"/>
+  <rect x="96" y="134" width="64" height="16" rx="4"/>
+</svg>

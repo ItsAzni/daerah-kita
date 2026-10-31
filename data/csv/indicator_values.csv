@@ -1,0 +1,406 @@
+region_code,region_name,indicator_code,indicator_name,value,unit,period,source_name
+3201,Kabupaten Bogor,jumlah_penduduk,Jumlah Penduduk,5760940,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3201,Kabupaten Bogor,kepadatan_penduduk,Kepadatan Penduduk,1925.59,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3201,Kabupaten Bogor,rasio_jenis_kelamin,Rasio Jenis Kelamin,104.83,rasio,2026,BPS Provinsi Jawa Barat
+3201,Kabupaten Bogor,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),7.69,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3201,Kabupaten Bogor,tenaga_medis,Jumlah Tenaga Medis (Dokter),3820,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3201,Kabupaten Bogor,jumlah_puskesmas,Jumlah Puskesmas,101,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3201,Kabupaten Bogor,rasio_elektrifikasi,Persentase RT Berlistrik PLN,99.92,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3201,Kabupaten Bogor,akses_sanitasi,Persentase RT Akses Sanitasi Layak,67.17,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3201,Kabupaten Bogor,akses_air_bersih,Persentase RT Akses Air Minum Layak,96.26,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3201,Kabupaten Bogor,tingkat_kemiskinan,Persentase Penduduk Miskin,6.26,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3201,Kabupaten Bogor,ipm,Indeks Pembangunan Manusia (IPM),74.53,indeks,2025,BPS Provinsi Jawa Barat
+3201,Kabupaten Bogor,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.23,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3201,Kabupaten Bogor,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),12.76,tahun,2025,BPS Provinsi Jawa Barat
+3201,Kabupaten Bogor,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),8.72,tahun,2025,BPS Provinsi Jawa Barat
+3201,Kabupaten Bogor,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,11933000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3202,Kabupaten Sukabumi,jumlah_penduduk,Jumlah Penduduk,2875410,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3202,Kabupaten Sukabumi,kepadatan_penduduk,Kepadatan Penduduk,690.57,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3202,Kabupaten Sukabumi,rasio_jenis_kelamin,Rasio Jenis Kelamin,102.44,rasio,2026,BPS Provinsi Jawa Barat
+3202,Kabupaten Sukabumi,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),7.23,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3202,Kabupaten Sukabumi,tenaga_medis,Jumlah Tenaga Medis (Dokter),1148,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3202,Kabupaten Sukabumi,jumlah_puskesmas,Jumlah Puskesmas,58,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3202,Kabupaten Sukabumi,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3202,Kabupaten Sukabumi,akses_sanitasi,Persentase RT Akses Sanitasi Layak,59.25,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3202,Kabupaten Sukabumi,akses_air_bersih,Persentase RT Akses Air Minum Layak,90.26,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3202,Kabupaten Sukabumi,tingkat_kemiskinan,Persentase Penduduk Miskin,6.41,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3202,Kabupaten Sukabumi,ipm,Indeks Pembangunan Manusia (IPM),71.13,indeks,2025,BPS Provinsi Jawa Barat
+3202,Kabupaten Sukabumi,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.12,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3202,Kabupaten Sukabumi,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),12.4,tahun,2025,BPS Provinsi Jawa Barat
+3202,Kabupaten Sukabumi,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),7.63,tahun,2025,BPS Provinsi Jawa Barat
+3202,Kabupaten Sukabumi,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,10244000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3203,Kabupaten Cianjur,jumlah_penduduk,Jumlah Penduduk,2634840,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3203,Kabupaten Cianjur,kepadatan_penduduk,Kepadatan Penduduk,725.46,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3203,Kabupaten Cianjur,rasio_jenis_kelamin,Rasio Jenis Kelamin,104.32,rasio,2026,BPS Provinsi Jawa Barat
+3203,Kabupaten Cianjur,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),6.17,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3203,Kabupaten Cianjur,tenaga_medis,Jumlah Tenaga Medis (Dokter),989,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3203,Kabupaten Cianjur,jumlah_puskesmas,Jumlah Puskesmas,47,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3203,Kabupaten Cianjur,rasio_elektrifikasi,Persentase RT Berlistrik PLN,99.98,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3203,Kabupaten Cianjur,akses_sanitasi,Persentase RT Akses Sanitasi Layak,61.11,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3203,Kabupaten Cianjur,akses_air_bersih,Persentase RT Akses Air Minum Layak,86.73,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3203,Kabupaten Cianjur,tingkat_kemiskinan,Persentase Penduduk Miskin,9.82,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3203,Kabupaten Cianjur,ipm,Indeks Pembangunan Manusia (IPM),69.84,indeks,2025,BPS Provinsi Jawa Barat
+3203,Kabupaten Cianjur,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.05,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3203,Kabupaten Cianjur,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),12.31,tahun,2025,BPS Provinsi Jawa Barat
+3203,Kabupaten Cianjur,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),7.62,tahun,2025,BPS Provinsi Jawa Barat
+3203,Kabupaten Cianjur,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,9173000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3204,Kabupaten Bandung,jumlah_penduduk,Jumlah Penduduk,3812410,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3204,Kabupaten Bandung,kepadatan_penduduk,Kepadatan Penduduk,2189.98,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3204,Kabupaten Bandung,rasio_jenis_kelamin,Rasio Jenis Kelamin,103.24,rasio,2026,BPS Provinsi Jawa Barat
+3204,Kabupaten Bandung,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),6.68,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3204,Kabupaten Bandung,tenaga_medis,Jumlah Tenaga Medis (Dokter),2054,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3204,Kabupaten Bandung,jumlah_puskesmas,Jumlah Puskesmas,62,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3204,Kabupaten Bandung,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3204,Kabupaten Bandung,akses_sanitasi,Persentase RT Akses Sanitasi Layak,70.4,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3204,Kabupaten Bandung,akses_air_bersih,Persentase RT Akses Air Minum Layak,99.08,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3204,Kabupaten Bandung,tingkat_kemiskinan,Persentase Penduduk Miskin,6.04,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3204,Kabupaten Bandung,ipm,Indeks Pembangunan Manusia (IPM),75.58,indeks,2025,BPS Provinsi Jawa Barat
+3204,Kabupaten Bandung,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.7,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3204,Kabupaten Bandung,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),12.99,tahun,2025,BPS Provinsi Jawa Barat
+3204,Kabupaten Bandung,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),9.4,tahun,2025,BPS Provinsi Jawa Barat
+3204,Kabupaten Bandung,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,11619000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3205,Kabupaten Garut,jumlah_penduduk,Jumlah Penduduk,2779700,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3205,Kabupaten Garut,kepadatan_penduduk,Kepadatan Penduduk,896.35,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3205,Kabupaten Garut,rasio_jenis_kelamin,Rasio Jenis Kelamin,104.3,rasio,2026,BPS Provinsi Jawa Barat
+3205,Kabupaten Garut,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),6.54,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3205,Kabupaten Garut,tenaga_medis,Jumlah Tenaga Medis (Dokter),1153,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3205,Kabupaten Garut,jumlah_puskesmas,Jumlah Puskesmas,67,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3205,Kabupaten Garut,rasio_elektrifikasi,Persentase RT Berlistrik PLN,99.85,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3205,Kabupaten Garut,akses_sanitasi,Persentase RT Akses Sanitasi Layak,53.35,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3205,Kabupaten Garut,akses_air_bersih,Persentase RT Akses Air Minum Layak,88.39,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3205,Kabupaten Garut,tingkat_kemiskinan,Persentase Penduduk Miskin,9.39,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3205,Kabupaten Garut,ipm,Indeks Pembangunan Manusia (IPM),70.67,indeks,2025,BPS Provinsi Jawa Barat
+3205,Kabupaten Garut,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.14,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3205,Kabupaten Garut,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),12.43,tahun,2025,BPS Provinsi Jawa Barat
+3205,Kabupaten Garut,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),7.86,tahun,2025,BPS Provinsi Jawa Barat
+3205,Kabupaten Garut,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,9479000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3206,Kabupaten Tasikmalaya,jumlah_penduduk,Jumlah Penduduk,1946200,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3206,Kabupaten Tasikmalaya,kepadatan_penduduk,Kepadatan Penduduk,718.96,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3206,Kabupaten Tasikmalaya,rasio_jenis_kelamin,Rasio Jenis Kelamin,102.16,rasio,2026,BPS Provinsi Jawa Barat
+3206,Kabupaten Tasikmalaya,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),3.69,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3206,Kabupaten Tasikmalaya,tenaga_medis,Jumlah Tenaga Medis (Dokter),357,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3206,Kabupaten Tasikmalaya,jumlah_puskesmas,Jumlah Puskesmas,40,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3206,Kabupaten Tasikmalaya,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3206,Kabupaten Tasikmalaya,akses_sanitasi,Persentase RT Akses Sanitasi Layak,58.76,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3206,Kabupaten Tasikmalaya,akses_air_bersih,Persentase RT Akses Air Minum Layak,84.79,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3206,Kabupaten Tasikmalaya,tingkat_kemiskinan,Persentase Penduduk Miskin,10.15,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3206,Kabupaten Tasikmalaya,ipm,Indeks Pembangunan Manusia (IPM),70.76,indeks,2025,BPS Provinsi Jawa Barat
+3206,Kabupaten Tasikmalaya,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),74.37,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3206,Kabupaten Tasikmalaya,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),12.92,tahun,2025,BPS Provinsi Jawa Barat
+3206,Kabupaten Tasikmalaya,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),7.98,tahun,2025,BPS Provinsi Jawa Barat
+3206,Kabupaten Tasikmalaya,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,9258000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3207,Kabupaten Ciamis,jumlah_penduduk,Jumlah Penduduk,1273160,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3207,Kabupaten Ciamis,kepadatan_penduduk,Kepadatan Penduduk,797.75,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3207,Kabupaten Ciamis,rasio_jenis_kelamin,Rasio Jenis Kelamin,99.66,rasio,2026,BPS Provinsi Jawa Barat
+3207,Kabupaten Ciamis,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),4.08,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3207,Kabupaten Ciamis,tenaga_medis,Jumlah Tenaga Medis (Dokter),352,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3207,Kabupaten Ciamis,jumlah_puskesmas,Jumlah Puskesmas,37,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3207,Kabupaten Ciamis,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3207,Kabupaten Ciamis,akses_sanitasi,Persentase RT Akses Sanitasi Layak,75.84,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3207,Kabupaten Ciamis,akses_air_bersih,Persentase RT Akses Air Minum Layak,94.23,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3207,Kabupaten Ciamis,tingkat_kemiskinan,Persentase Penduduk Miskin,7.19,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3207,Kabupaten Ciamis,ipm,Indeks Pembangunan Manusia (IPM),74.33,indeks,2025,BPS Provinsi Jawa Barat
+3207,Kabupaten Ciamis,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.69,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3207,Kabupaten Ciamis,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),14.31,tahun,2025,BPS Provinsi Jawa Barat
+3207,Kabupaten Ciamis,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),8.23,tahun,2025,BPS Provinsi Jawa Barat
+3207,Kabupaten Ciamis,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,10406000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3208,Kabupaten Kuningan,jumlah_penduduk,Jumlah Penduduk,1236760,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3208,Kabupaten Kuningan,kepadatan_penduduk,Kepadatan Penduduk,1036.29,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3208,Kabupaten Kuningan,rasio_jenis_kelamin,Rasio Jenis Kelamin,102.37,rasio,2026,BPS Provinsi Jawa Barat
+3208,Kabupaten Kuningan,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),7.59,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3208,Kabupaten Kuningan,tenaga_medis,Jumlah Tenaga Medis (Dokter),701,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3208,Kabupaten Kuningan,jumlah_puskesmas,Jumlah Puskesmas,37,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3208,Kabupaten Kuningan,rasio_elektrifikasi,Persentase RT Berlistrik PLN,99.99,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3208,Kabupaten Kuningan,akses_sanitasi,Persentase RT Akses Sanitasi Layak,89.38,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3208,Kabupaten Kuningan,akses_air_bersih,Persentase RT Akses Air Minum Layak,99.11,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3208,Kabupaten Kuningan,tingkat_kemiskinan,Persentase Penduduk Miskin,10.74,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3208,Kabupaten Kuningan,ipm,Indeks Pembangunan Manusia (IPM),72.31,indeks,2025,BPS Provinsi Jawa Barat
+3208,Kabupaten Kuningan,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.64,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3208,Kabupaten Kuningan,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),12.52,tahun,2025,BPS Provinsi Jawa Barat
+3208,Kabupaten Kuningan,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),7.91,tahun,2025,BPS Provinsi Jawa Barat
+3208,Kabupaten Kuningan,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,10707000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3209,Kabupaten Cirebon,jumlah_penduduk,Jumlah Penduduk,2438660,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3209,Kabupaten Cirebon,kepadatan_penduduk,Kepadatan Penduduk,2271.11,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3209,Kabupaten Cirebon,rasio_jenis_kelamin,Rasio Jenis Kelamin,102.24,rasio,2026,BPS Provinsi Jawa Barat
+3209,Kabupaten Cirebon,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),6.42,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3209,Kabupaten Cirebon,tenaga_medis,Jumlah Tenaga Medis (Dokter),1144,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3209,Kabupaten Cirebon,jumlah_puskesmas,Jumlah Puskesmas,60,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3209,Kabupaten Cirebon,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3209,Kabupaten Cirebon,akses_sanitasi,Persentase RT Akses Sanitasi Layak,90.78,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3209,Kabupaten Cirebon,akses_air_bersih,Persentase RT Akses Air Minum Layak,97.79,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3209,Kabupaten Cirebon,tingkat_kemiskinan,Persentase Penduduk Miskin,10.23,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3209,Kabupaten Cirebon,ipm,Indeks Pembangunan Manusia (IPM),73.27,indeks,2025,BPS Provinsi Jawa Barat
+3209,Kabupaten Cirebon,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.39,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3209,Kabupaten Cirebon,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),12.67,tahun,2025,BPS Provinsi Jawa Barat
+3209,Kabupaten Cirebon,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),7.88,tahun,2025,BPS Provinsi Jawa Barat
+3209,Kabupaten Cirebon,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,11769000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3210,Kabupaten Majalengka,jumlah_penduduk,Jumlah Penduduk,1374600,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3210,Kabupaten Majalengka,kepadatan_penduduk,Kepadatan Penduduk,1032.33,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3210,Kabupaten Majalengka,rasio_jenis_kelamin,Rasio Jenis Kelamin,100.27,rasio,2026,BPS Provinsi Jawa Barat
+3210,Kabupaten Majalengka,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),3.62,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3210,Kabupaten Majalengka,tenaga_medis,Jumlah Tenaga Medis (Dokter),783,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3210,Kabupaten Majalengka,jumlah_puskesmas,Jumlah Puskesmas,32,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3210,Kabupaten Majalengka,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3210,Kabupaten Majalengka,akses_sanitasi,Persentase RT Akses Sanitasi Layak,81.85,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3210,Kabupaten Majalengka,akses_air_bersih,Persentase RT Akses Air Minum Layak,96.18,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3210,Kabupaten Majalengka,tingkat_kemiskinan,Persentase Penduduk Miskin,10.31,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3210,Kabupaten Majalengka,ipm,Indeks Pembangunan Manusia (IPM),72.37,indeks,2025,BPS Provinsi Jawa Barat
+3210,Kabupaten Majalengka,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.32,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3210,Kabupaten Majalengka,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),12.5,tahun,2025,BPS Provinsi Jawa Barat
+3210,Kabupaten Majalengka,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),7.81,tahun,2025,BPS Provinsi Jawa Barat
+3210,Kabupaten Majalengka,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,11094000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3211,Kabupaten Sumedang,jumlah_penduduk,Jumlah Penduduk,1203720,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3211,Kabupaten Sumedang,kepadatan_penduduk,Kepadatan Penduduk,768.56,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3211,Kabupaten Sumedang,rasio_jenis_kelamin,Rasio Jenis Kelamin,101.2,rasio,2026,BPS Provinsi Jawa Barat
+3211,Kabupaten Sumedang,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),6.08,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3211,Kabupaten Sumedang,tenaga_medis,Jumlah Tenaga Medis (Dokter),904,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3211,Kabupaten Sumedang,jumlah_puskesmas,Jumlah Puskesmas,35,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3211,Kabupaten Sumedang,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3211,Kabupaten Sumedang,akses_sanitasi,Persentase RT Akses Sanitasi Layak,86.77,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3211,Kabupaten Sumedang,akses_air_bersih,Persentase RT Akses Air Minum Layak,96.3,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3211,Kabupaten Sumedang,tingkat_kemiskinan,Persentase Penduduk Miskin,8.81,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3211,Kabupaten Sumedang,ipm,Indeks Pembangunan Manusia (IPM),75.5,indeks,2025,BPS Provinsi Jawa Barat
+3211,Kabupaten Sumedang,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.7,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3211,Kabupaten Sumedang,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),13.21,tahun,2025,BPS Provinsi Jawa Barat
+3211,Kabupaten Sumedang,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),8.92,tahun,2025,BPS Provinsi Jawa Barat
+3211,Kabupaten Sumedang,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,11963000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3212,Kabupaten Indramayu,jumlah_penduduk,Jumlah Penduduk,1950320,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3212,Kabupaten Indramayu,kepadatan_penduduk,Kepadatan Penduduk,939.34,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3212,Kabupaten Indramayu,rasio_jenis_kelamin,Rasio Jenis Kelamin,100.37,rasio,2026,BPS Provinsi Jawa Barat
+3212,Kabupaten Indramayu,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),6.47,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3212,Kabupaten Indramayu,tenaga_medis,Jumlah Tenaga Medis (Dokter),983,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3212,Kabupaten Indramayu,jumlah_puskesmas,Jumlah Puskesmas,49,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3212,Kabupaten Indramayu,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3212,Kabupaten Indramayu,akses_sanitasi,Persentase RT Akses Sanitasi Layak,93.41,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3212,Kabupaten Indramayu,akses_air_bersih,Persentase RT Akses Air Minum Layak,98.04,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3212,Kabupaten Indramayu,tingkat_kemiskinan,Persentase Penduduk Miskin,11.02,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3212,Kabupaten Indramayu,ipm,Indeks Pembangunan Manusia (IPM),71.58,indeks,2025,BPS Provinsi Jawa Barat
+3212,Kabupaten Indramayu,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.16,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3212,Kabupaten Indramayu,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),12.58,tahun,2025,BPS Provinsi Jawa Barat
+3212,Kabupaten Indramayu,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),7.06,tahun,2025,BPS Provinsi Jawa Barat
+3212,Kabupaten Indramayu,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,11316000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3213,Kabupaten Subang,jumlah_penduduk,Jumlah Penduduk,1687340,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3213,Kabupaten Subang,kepadatan_penduduk,Kepadatan Penduduk,777.97,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3213,Kabupaten Subang,rasio_jenis_kelamin,Rasio Jenis Kelamin,99.82,rasio,2026,BPS Provinsi Jawa Barat
+3213,Kabupaten Subang,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),6.8,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3213,Kabupaten Subang,tenaga_medis,Jumlah Tenaga Medis (Dokter),827,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3213,Kabupaten Subang,jumlah_puskesmas,Jumlah Puskesmas,40,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3213,Kabupaten Subang,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3213,Kabupaten Subang,akses_sanitasi,Persentase RT Akses Sanitasi Layak,90.56,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3213,Kabupaten Subang,akses_air_bersih,Persentase RT Akses Air Minum Layak,99.73,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3213,Kabupaten Subang,tingkat_kemiskinan,Persentase Penduduk Miskin,9.23,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3213,Kabupaten Subang,ipm,Indeks Pembangunan Manusia (IPM),73.0,indeks,2025,BPS Provinsi Jawa Barat
+3213,Kabupaten Subang,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.41,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3213,Kabupaten Subang,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),12.38,tahun,2025,BPS Provinsi Jawa Barat
+3213,Kabupaten Subang,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),7.68,tahun,2025,BPS Provinsi Jawa Barat
+3213,Kabupaten Subang,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,12144000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3214,Kabupaten Purwakarta,jumlah_penduduk,Jumlah Penduduk,1075240,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3214,Kabupaten Purwakarta,kepadatan_penduduk,Kepadatan Penduduk,1082.72,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3214,Kabupaten Purwakarta,rasio_jenis_kelamin,Rasio Jenis Kelamin,102.6,rasio,2026,BPS Provinsi Jawa Barat
+3214,Kabupaten Purwakarta,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),7.54,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3214,Kabupaten Purwakarta,tenaga_medis,Jumlah Tenaga Medis (Dokter),1115,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3214,Kabupaten Purwakarta,jumlah_puskesmas,Jumlah Puskesmas,20,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3214,Kabupaten Purwakarta,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3214,Kabupaten Purwakarta,akses_sanitasi,Persentase RT Akses Sanitasi Layak,74.37,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3214,Kabupaten Purwakarta,akses_air_bersih,Persentase RT Akses Air Minum Layak,92.89,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3214,Kabupaten Purwakarta,tingkat_kemiskinan,Persentase Penduduk Miskin,7.87,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3214,Kabupaten Purwakarta,ipm,Indeks Pembangunan Manusia (IPM),74.97,indeks,2025,BPS Provinsi Jawa Barat
+3214,Kabupaten Purwakarta,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.28,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3214,Kabupaten Purwakarta,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),12.51,tahun,2025,BPS Provinsi Jawa Barat
+3214,Kabupaten Purwakarta,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),8.37,tahun,2025,BPS Provinsi Jawa Barat
+3214,Kabupaten Purwakarta,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,13400000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3215,Kabupaten Karawang,jumlah_penduduk,Jumlah Penduduk,2607280,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3215,Kabupaten Karawang,kepadatan_penduduk,Kepadatan Penduduk,1360.75,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3215,Kabupaten Karawang,rasio_jenis_kelamin,Rasio Jenis Kelamin,101.72,rasio,2026,BPS Provinsi Jawa Barat
+3215,Kabupaten Karawang,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),7.99,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3215,Kabupaten Karawang,tenaga_medis,Jumlah Tenaga Medis (Dokter),2414,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3215,Kabupaten Karawang,jumlah_puskesmas,Jumlah Puskesmas,50,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3215,Kabupaten Karawang,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3215,Kabupaten Karawang,akses_sanitasi,Persentase RT Akses Sanitasi Layak,86.79,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3215,Kabupaten Karawang,akses_air_bersih,Persentase RT Akses Air Minum Layak,97.3,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3215,Kabupaten Karawang,tingkat_kemiskinan,Persentase Penduduk Miskin,7.08,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3215,Kabupaten Karawang,ipm,Indeks Pembangunan Manusia (IPM),74.59,indeks,2025,BPS Provinsi Jawa Barat
+3215,Kabupaten Karawang,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.57,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3215,Kabupaten Karawang,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),12.22,tahun,2025,BPS Provinsi Jawa Barat
+3215,Kabupaten Karawang,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),8.31,tahun,2025,BPS Provinsi Jawa Barat
+3215,Kabupaten Karawang,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,13251000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3216,Kabupaten Bekasi,jumlah_penduduk,Jumlah Penduduk,3331400,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3216,Kabupaten Bekasi,kepadatan_penduduk,Kepadatan Penduduk,2654.5,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3216,Kabupaten Bekasi,rasio_jenis_kelamin,Rasio Jenis Kelamin,102.12,rasio,2026,BPS Provinsi Jawa Barat
+3216,Kabupaten Bekasi,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),8.78,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3216,Kabupaten Bekasi,tenaga_medis,Jumlah Tenaga Medis (Dokter),4858,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3216,Kabupaten Bekasi,jumlah_puskesmas,Jumlah Puskesmas,55,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3216,Kabupaten Bekasi,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3216,Kabupaten Bekasi,akses_sanitasi,Persentase RT Akses Sanitasi Layak,90.24,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3216,Kabupaten Bekasi,akses_air_bersih,Persentase RT Akses Air Minum Layak,98.29,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3216,Kabupaten Bekasi,tingkat_kemiskinan,Persentase Penduduk Miskin,4.36,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3216,Kabupaten Bekasi,ipm,Indeks Pembangunan Manusia (IPM),77.8,indeks,2025,BPS Provinsi Jawa Barat
+3216,Kabupaten Bekasi,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.71,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3216,Kabupaten Bekasi,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),13.22,tahun,2025,BPS Provinsi Jawa Barat
+3216,Kabupaten Bekasi,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),10.07,tahun,2025,BPS Provinsi Jawa Barat
+3216,Kabupaten Bekasi,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,13004000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3217,Kabupaten Bandung Barat,jumlah_penduduk,Jumlah Penduduk,1931070,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3217,Kabupaten Bandung Barat,kepadatan_penduduk,Kepadatan Penduduk,1504.61,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3217,Kabupaten Bandung Barat,rasio_jenis_kelamin,Rasio Jenis Kelamin,103.65,rasio,2026,BPS Provinsi Jawa Barat
+3217,Kabupaten Bandung Barat,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),6.6,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3217,Kabupaten Bandung Barat,tenaga_medis,Jumlah Tenaga Medis (Dokter),1202,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3217,Kabupaten Bandung Barat,jumlah_puskesmas,Jumlah Puskesmas,32,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3217,Kabupaten Bandung Barat,rasio_elektrifikasi,Persentase RT Berlistrik PLN,99.65,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3217,Kabupaten Bandung Barat,akses_sanitasi,Persentase RT Akses Sanitasi Layak,55.95,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3217,Kabupaten Bandung Barat,akses_air_bersih,Persentase RT Akses Air Minum Layak,91.33,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3217,Kabupaten Bandung Barat,tingkat_kemiskinan,Persentase Penduduk Miskin,9.87,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3217,Kabupaten Bandung Barat,ipm,Indeks Pembangunan Manusia (IPM),71.65,indeks,2025,BPS Provinsi Jawa Barat
+3217,Kabupaten Bandung Barat,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.44,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3217,Kabupaten Bandung Barat,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),12.26,tahun,2025,BPS Provinsi Jawa Barat
+3217,Kabupaten Bandung Barat,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),8.34,tahun,2025,BPS Provinsi Jawa Barat
+3217,Kabupaten Bandung Barat,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,9862000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3218,Kabupaten Pangandaran,jumlah_penduduk,Jumlah Penduduk,438740,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3218,Kabupaten Pangandaran,kepadatan_penduduk,Kepadatan Penduduk,388.91,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3218,Kabupaten Pangandaran,rasio_jenis_kelamin,Rasio Jenis Kelamin,99.54,rasio,2026,BPS Provinsi Jawa Barat
+3218,Kabupaten Pangandaran,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),1.91,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3218,Kabupaten Pangandaran,tenaga_medis,Jumlah Tenaga Medis (Dokter),221,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3218,Kabupaten Pangandaran,jumlah_puskesmas,Jumlah Puskesmas,15,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3218,Kabupaten Pangandaran,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3218,Kabupaten Pangandaran,akses_sanitasi,Persentase RT Akses Sanitasi Layak,93.02,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3218,Kabupaten Pangandaran,akses_air_bersih,Persentase RT Akses Air Minum Layak,87.64,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3218,Kabupaten Pangandaran,tingkat_kemiskinan,Persentase Penduduk Miskin,8.03,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3218,Kabupaten Pangandaran,ipm,Indeks Pembangunan Manusia (IPM),71.66,indeks,2025,BPS Provinsi Jawa Barat
+3218,Kabupaten Pangandaran,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.45,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3218,Kabupaten Pangandaran,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),12.41,tahun,2025,BPS Provinsi Jawa Barat
+3218,Kabupaten Pangandaran,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),8.11,tahun,2025,BPS Provinsi Jawa Barat
+3218,Kabupaten Pangandaran,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,9995000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3271,Kota Bogor,jumlah_penduduk,Jumlah Penduduk,1089180,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3271,Kota Bogor,kepadatan_penduduk,Kepadatan Penduduk,9780.18,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3271,Kota Bogor,rasio_jenis_kelamin,Rasio Jenis Kelamin,102.26,rasio,2026,BPS Provinsi Jawa Barat
+3271,Kota Bogor,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),7.95,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3271,Kota Bogor,tenaga_medis,Jumlah Tenaga Medis (Dokter),2629,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3271,Kota Bogor,jumlah_puskesmas,Jumlah Puskesmas,25,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3271,Kota Bogor,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3271,Kota Bogor,akses_sanitasi,Persentase RT Akses Sanitasi Layak,74.41,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3271,Kota Bogor,akses_air_bersih,Persentase RT Akses Air Minum Layak,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3271,Kota Bogor,tingkat_kemiskinan,Persentase Penduduk Miskin,5.89,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3271,Kota Bogor,ipm,Indeks Pembangunan Manusia (IPM),79.75,indeks,2025,BPS Provinsi Jawa Barat
+3271,Kota Bogor,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),76.25,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3271,Kota Bogor,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),13.69,tahun,2025,BPS Provinsi Jawa Barat
+3271,Kota Bogor,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),10.72,tahun,2025,BPS Provinsi Jawa Barat
+3271,Kota Bogor,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,13571000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3272,Kota Sukabumi,jumlah_penduduk,Jumlah Penduduk,375580,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3272,Kota Sukabumi,kepadatan_penduduk,Kepadatan Penduduk,7773.81,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3272,Kota Sukabumi,rasio_jenis_kelamin,Rasio Jenis Kelamin,100.73,rasio,2026,BPS Provinsi Jawa Barat
+3272,Kota Sukabumi,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),8.19,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3272,Kota Sukabumi,tenaga_medis,Jumlah Tenaga Medis (Dokter),596,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3272,Kota Sukabumi,jumlah_puskesmas,Jumlah Puskesmas,15,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3272,Kota Sukabumi,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3272,Kota Sukabumi,akses_sanitasi,Persentase RT Akses Sanitasi Layak,46.61,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3272,Kota Sukabumi,akses_air_bersih,Persentase RT Akses Air Minum Layak,99.34,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3272,Kota Sukabumi,tingkat_kemiskinan,Persentase Penduduk Miskin,6.9,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3272,Kota Sukabumi,ipm,Indeks Pembangunan Manusia (IPM),78.23,indeks,2025,BPS Provinsi Jawa Barat
+3272,Kota Sukabumi,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.45,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3272,Kota Sukabumi,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),13.63,tahun,2025,BPS Provinsi Jawa Barat
+3272,Kota Sukabumi,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),10.39,tahun,2025,BPS Provinsi Jawa Barat
+3272,Kota Sukabumi,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,12692000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3273,Kota Bandung,jumlah_penduduk,Jumlah Penduduk,2569100,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3273,Kota Bandung,kepadatan_penduduk,Kepadatan Penduduk,15421.43,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3273,Kota Bandung,rasio_jenis_kelamin,Rasio Jenis Kelamin,100.37,rasio,2026,BPS Provinsi Jawa Barat
+3273,Kota Bandung,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),7.22,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3273,Kota Bandung,tenaga_medis,Jumlah Tenaga Medis (Dokter),6295,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3273,Kota Bandung,jumlah_puskesmas,Jumlah Puskesmas,80,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3273,Kota Bandung,rasio_elektrifikasi,Persentase RT Berlistrik PLN,99.87,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3273,Kota Bandung,akses_sanitasi,Persentase RT Akses Sanitasi Layak,56.5,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3273,Kota Bandung,akses_air_bersih,Persentase RT Akses Air Minum Layak,99.66,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3273,Kota Bandung,tingkat_kemiskinan,Persentase Penduduk Miskin,3.78,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3273,Kota Bandung,ipm,Indeks Pembangunan Manusia (IPM),84.66,indeks,2025,BPS Provinsi Jawa Barat
+3273,Kota Bandung,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),76.3,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3273,Kota Bandung,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),14.27,tahun,2025,BPS Provinsi Jawa Barat
+3273,Kota Bandung,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),11.41,tahun,2025,BPS Provinsi Jawa Barat
+3273,Kota Bandung,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,19280000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3274,Kota Cirebon,jumlah_penduduk,Jumlah Penduduk,350130,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3274,Kota Cirebon,kepadatan_penduduk,Kepadatan Penduduk,8887.0,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3274,Kota Cirebon,rasio_jenis_kelamin,Rasio Jenis Kelamin,100.64,rasio,2026,BPS Provinsi Jawa Barat
+3274,Kota Cirebon,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),6.41,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3274,Kota Cirebon,tenaga_medis,Jumlah Tenaga Medis (Dokter),965,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3274,Kota Cirebon,jumlah_puskesmas,Jumlah Puskesmas,22,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3274,Kota Cirebon,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3274,Kota Cirebon,akses_sanitasi,Persentase RT Akses Sanitasi Layak,92.67,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3274,Kota Cirebon,akses_air_bersih,Persentase RT Akses Air Minum Layak,99.11,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3274,Kota Cirebon,tingkat_kemiskinan,Persentase Penduduk Miskin,8.66,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3274,Kota Cirebon,ipm,Indeks Pembangunan Manusia (IPM),78.99,indeks,2025,BPS Provinsi Jawa Barat
+3274,Kota Cirebon,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.97,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3274,Kota Cirebon,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),13.45,tahun,2025,BPS Provinsi Jawa Barat
+3274,Kota Cirebon,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),10.54,tahun,2025,BPS Provinsi Jawa Barat
+3274,Kota Cirebon,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,13341000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3275,Kota Bekasi,jumlah_penduduk,Jumlah Penduduk,2652950,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3275,Kota Bekasi,kepadatan_penduduk,Kepadatan Penduduk,12453.07,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3275,Kota Bekasi,rasio_jenis_kelamin,Rasio Jenis Kelamin,100.48,rasio,2026,BPS Provinsi Jawa Barat
+3275,Kota Bekasi,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),7.33,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3275,Kota Bekasi,tenaga_medis,Jumlah Tenaga Medis (Dokter),4976,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3275,Kota Bekasi,jumlah_puskesmas,Jumlah Puskesmas,53,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3275,Kota Bekasi,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3275,Kota Bekasi,akses_sanitasi,Persentase RT Akses Sanitasi Layak,97.93,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3275,Kota Bekasi,akses_air_bersih,Persentase RT Akses Air Minum Layak,99.9,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3275,Kota Bekasi,tingkat_kemiskinan,Persentase Penduduk Miskin,3.96,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3275,Kota Bekasi,ipm,Indeks Pembangunan Manusia (IPM),84.43,indeks,2025,BPS Provinsi Jawa Barat
+3275,Kota Bekasi,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),76.61,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3275,Kota Bekasi,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),14.15,tahun,2025,BPS Provinsi Jawa Barat
+3275,Kota Bekasi,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),12.11,tahun,2025,BPS Provinsi Jawa Barat
+3275,Kota Bekasi,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,17216000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3276,Kota Depok,jumlah_penduduk,Jumlah Penduduk,2173250,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3276,Kota Depok,kepadatan_penduduk,Kepadatan Penduduk,10871.35,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3276,Kota Depok,rasio_jenis_kelamin,Rasio Jenis Kelamin,100.88,rasio,2026,BPS Provinsi Jawa Barat
+3276,Kota Depok,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),6.52,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3276,Kota Depok,tenaga_medis,Jumlah Tenaga Medis (Dokter),4449,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3276,Kota Depok,jumlah_puskesmas,Jumlah Puskesmas,38,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3276,Kota Depok,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3276,Kota Depok,akses_sanitasi,Persentase RT Akses Sanitasi Layak,97.68,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3276,Kota Depok,akses_air_bersih,Persentase RT Akses Air Minum Layak,99.64,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3276,Kota Depok,tingkat_kemiskinan,Persentase Penduduk Miskin,2.31,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3276,Kota Depok,ipm,Indeks Pembangunan Manusia (IPM),84.04,indeks,2025,BPS Provinsi Jawa Barat
+3276,Kota Depok,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),76.3,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3276,Kota Depok,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),14.21,tahun,2025,BPS Provinsi Jawa Barat
+3276,Kota Depok,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),11.83,tahun,2025,BPS Provinsi Jawa Barat
+3276,Kota Depok,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,17279000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3277,Kota Cimahi,jumlah_penduduk,Jumlah Penduduk,613950,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3277,Kota Cimahi,kepadatan_penduduk,Kepadatan Penduduk,14469.13,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3277,Kota Cimahi,rasio_jenis_kelamin,Rasio Jenis Kelamin,101.43,rasio,2026,BPS Provinsi Jawa Barat
+3277,Kota Cimahi,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),8.75,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3277,Kota Cimahi,tenaga_medis,Jumlah Tenaga Medis (Dokter),1135,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3277,Kota Cimahi,jumlah_puskesmas,Jumlah Puskesmas,13,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3277,Kota Cimahi,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3277,Kota Cimahi,akses_sanitasi,Persentase RT Akses Sanitasi Layak,79.18,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3277,Kota Cimahi,akses_air_bersih,Persentase RT Akses Air Minum Layak,99.32,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3277,Kota Cimahi,tingkat_kemiskinan,Persentase Penduduk Miskin,4.2,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3277,Kota Cimahi,ipm,Indeks Pembangunan Manusia (IPM),80.85,indeks,2025,BPS Provinsi Jawa Barat
+3277,Kota Cimahi,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),76.0,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3277,Kota Cimahi,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),13.86,tahun,2025,BPS Provinsi Jawa Barat
+3277,Kota Cimahi,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),11.53,tahun,2025,BPS Provinsi Jawa Barat
+3277,Kota Cimahi,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,13697000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3278,Kota Tasikmalaya,jumlah_penduduk,Jumlah Penduduk,767850,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3278,Kota Tasikmalaya,kepadatan_penduduk,Kepadatan Penduduk,4196.75,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3278,Kota Tasikmalaya,rasio_jenis_kelamin,Rasio Jenis Kelamin,102.1,rasio,2026,BPS Provinsi Jawa Barat
+3278,Kota Tasikmalaya,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),6.43,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3278,Kota Tasikmalaya,tenaga_medis,Jumlah Tenaga Medis (Dokter),935,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3278,Kota Tasikmalaya,jumlah_puskesmas,Jumlah Puskesmas,22,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3278,Kota Tasikmalaya,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3278,Kota Tasikmalaya,akses_sanitasi,Persentase RT Akses Sanitasi Layak,56.37,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3278,Kota Tasikmalaya,akses_air_bersih,Persentase RT Akses Air Minum Layak,97.93,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3278,Kota Tasikmalaya,tingkat_kemiskinan,Persentase Penduduk Miskin,10.84,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3278,Kota Tasikmalaya,ipm,Indeks Pembangunan Manusia (IPM),76.59,indeks,2025,BPS Provinsi Jawa Barat
+3278,Kota Tasikmalaya,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.66,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3278,Kota Tasikmalaya,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),13.51,tahun,2025,BPS Provinsi Jawa Barat
+3278,Kota Tasikmalaya,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),9.64,tahun,2025,BPS Provinsi Jawa Barat
+3278,Kota Tasikmalaya,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,11849000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)
+3279,Kota Banjar,jumlah_penduduk,Jumlah Penduduk,214080,jiwa,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk)
+3279,Kota Banjar,kepadatan_penduduk,Kepadatan Penduduk,1634.17,jiwa/km2,2026,BPS Provinsi Jawa Barat
+3279,Kota Banjar,rasio_jenis_kelamin,Rasio Jenis Kelamin,100.68,rasio,2026,BPS Provinsi Jawa Barat
+3279,Kota Banjar,tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),5.26,%,2025,BPS Provinsi Jawa Barat (Sakernas Agustus)
+3279,Kota Banjar,tenaga_medis,Jumlah Tenaga Medis (Dokter),284,orang,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3279,Kota Banjar,jumlah_puskesmas,Jumlah Puskesmas,10,unit,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS
+3279,Kota Banjar,rasio_elektrifikasi,Persentase RT Berlistrik PLN,100.0,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3279,Kota Banjar,akses_sanitasi,Persentase RT Akses Sanitasi Layak,93.02,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3279,Kota Banjar,akses_air_bersih,Persentase RT Akses Air Minum Layak,96.8,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3279,Kota Banjar,tingkat_kemiskinan,Persentase Penduduk Miskin,5.73,%,2025,BPS Provinsi Jawa Barat (Susenas)
+3279,Kota Banjar,ipm,Indeks Pembangunan Manusia (IPM),75.54,indeks,2025,BPS Provinsi Jawa Barat
+3279,Kota Banjar,angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),75.35,tahun,2025,BPS Provinsi Jawa Barat (Long Form SP2020)
+3279,Kota Banjar,harapan_lama_sekolah,Harapan Lama Sekolah (HLS),13.29,tahun,2025,BPS Provinsi Jawa Barat
+3279,Kota Banjar,rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),8.84,tahun,2025,BPS Provinsi Jawa Barat
+3279,Kota Banjar,pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,12222000,rupiah/tahun,2025,BPS Provinsi Jawa Barat (Susenas)

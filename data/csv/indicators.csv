@@ -1,0 +1,16 @@
+code,name,category,unit,direction,period,source_name,bps_table,description
+jumlah_penduduk,Jumlah Penduduk,Demografi,jiwa,normal,2026,BPS Provinsi Jawa Barat (Proyeksi Penduduk),Tabel 3.1.1,Jumlah penduduk hasil proyeksi interim BPS
+kepadatan_penduduk,Kepadatan Penduduk,Demografi,jiwa/km2,normal,2026,BPS Provinsi Jawa Barat,Tabel 3.1.1,Kepadatan penduduk per kilometer persegi wilayah
+rasio_jenis_kelamin,Rasio Jenis Kelamin,Demografi,rasio,normal,2026,BPS Provinsi Jawa Barat,Tabel 3.1.1,Perbandingan jumlah penduduk laki-laki dengan perempuan (per 100 perempuan)
+pengeluaran_per_kapita,Pengeluaran Riil per Kapita Disesuaikan,Ekonomi,rupiah/tahun,normal,2025,BPS Provinsi Jawa Barat (Susenas),Tabel 4.6.6,Standar hidup layak / pengeluaran riil per kapita per tahun yang disesuaikan
+tingkat_pengangguran,Tingkat Pengangguran Terbuka (TPT),Ekonomi,%,reverse,2025,BPS Provinsi Jawa Barat (Sakernas Agustus),Tabel 3.2.16,Persentase angkatan kerja yang tidak memiliki pekerjaan dan sedang mencari kerja
+tingkat_kemiskinan,Persentase Penduduk Miskin,Ekonomi,%,reverse,2025,BPS Provinsi Jawa Barat (Susenas),Tabel 4.6.2,Persentase penduduk yang berada di bawah garis kemiskinan
+ipm,Indeks Pembangunan Manusia (IPM),Pendidikan,indeks,normal,2025,BPS Provinsi Jawa Barat,Tabel 4.6.5,"Pencapaian pembangunan manusia berbasis kesehatan, pendidikan, dan standar hidup"
+harapan_lama_sekolah,Harapan Lama Sekolah (HLS),Pendidikan,tahun,normal,2025,BPS Provinsi Jawa Barat,Tabel 4.6.6,Lamanya sekolah yang diharapkan akan dirasakan oleh anak pada umur tertentu di masa mendatang
+rata_rata_lama_sekolah,Rata-rata Lama Sekolah (RLS),Pendidikan,tahun,normal,2025,BPS Provinsi Jawa Barat,Tabel 4.6.6,Jumlah tahun yang digunakan oleh penduduk usia 25 tahun ke atas dalam menjalani pendidikan formal
+angka_harapan_hidup,Umur Harapan Hidup saat Lahir (AHH),Kesehatan,tahun,normal,2025,BPS Provinsi Jawa Barat (Long Form SP2020),Tabel 4.6.6,Perkiraan rata-rata banyaknya tahun yang dapat ditempuh oleh seseorang sejak lahir
+jumlah_puskesmas,Jumlah Puskesmas,Kesehatan,unit,normal,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS,Tabel 4.2.7,Jumlah fasilitas pusat kesehatan masyarakat (rawat inap dan non-rawat inap)
+tenaga_medis,Jumlah Tenaga Medis (Dokter),Kesehatan,orang,normal,2025,Dinas Kesehatan Provinsi Jawa Barat / BPS,Tabel 4.2.4,"Jumlah tenaga medis (dokter spesialis, dokter umum, dan dokter gigi)"
+akses_air_bersih,Persentase RT Akses Air Minum Layak,Infrastruktur,%,normal,2025,BPS Provinsi Jawa Barat (Susenas),Tabel 4.3.9,Persentase rumah tangga yang memiliki akses terhadap sumber air minum layak
+akses_sanitasi,Persentase RT Akses Sanitasi Layak,Infrastruktur,%,normal,2025,BPS Provinsi Jawa Barat (Susenas),Tabel 4.3.8,Persentase rumah tangga yang memiliki akses terhadap fasilitas sanitasi layak
+rasio_elektrifikasi,Persentase RT Berlistrik PLN,Infrastruktur,%,normal,2025,BPS Provinsi Jawa Barat (Susenas),Tabel 4.3.3,Persentase rumah tangga dengan sumber penerangan utama listrik PLN
