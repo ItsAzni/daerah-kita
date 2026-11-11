@@ -150,10 +150,6 @@ export default function SumberDataPage() {
             ))}
           </TableBody>
         </Table>
-        <p className="text-xs text-muted-foreground">
-          Semua nilai tersedia lengkap untuk 27 kabupaten/kota: 405 dari 405 sel
-          terisi.
-        </p>
       </section>
 
       <section className="flex flex-col gap-4">

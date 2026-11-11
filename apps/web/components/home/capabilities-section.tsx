@@ -30,7 +30,7 @@ export function CapabilitiesSection() {
   return (
     <section
       aria-labelledby="capabilities-heading"
-      className="border-b border-border"
+
     >
       <Container className="grid gap-10 py-16 lg:grid-cols-[minmax(0,4fr)_minmax(0,7fr)] lg:gap-16">
         <div className="flex flex-col gap-4">

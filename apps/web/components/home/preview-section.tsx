@@ -26,7 +26,7 @@ export function PreviewSection() {
   return (
     <section
       aria-labelledby="preview-heading"
-      className="border-b border-border"
+
     >
       <Container className="flex flex-col gap-10 py-16">
         <div className="flex flex-col gap-4">

@@ -10,7 +10,7 @@ const averageScores = averageSimilarityByRegion()
 
 export function HeroSection() {
   return (
-    <section aria-labelledby="hero-heading" className="border-b border-border">
+    <section aria-labelledby="hero-heading">
       <div className="mx-auto grid w-full max-w-6xl gap-10 px-5 py-12 sm:px-8 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:items-center lg:gap-16 lg:py-20">
         <div className="flex flex-col gap-6">
           <h1

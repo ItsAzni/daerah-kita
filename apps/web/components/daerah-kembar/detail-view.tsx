@@ -305,11 +305,6 @@ export function DetailView({
             })}
           </TableBody>
         </Table>
-        <p className="text-xs text-muted-foreground">
-          Sumber: BPS Provinsi Jawa Barat (2025/2026). Tanda plus dan minus
-          hanya menunjukkan arah selisih, bukan penilaian lebih baik atau lebih
-          buruk.
-        </p>
       </section>
 
       <div className="grid gap-10 lg:grid-cols-2 lg:gap-12">
