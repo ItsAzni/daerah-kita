@@ -41,16 +41,11 @@ export function HeroSection() {
               triggerClassName="min-h-11 w-full justify-start sm:w-auto"
             />
           </div>
-
-          <p className="max-w-md border-t border-border pt-4 text-xs text-muted-foreground">
-            Skor kemiripan menunjukkan kedekatan karakteristik statistik, bukan
-            peringkat kualitas pembangunan.
-          </p>
         </div>
 
         <JabarChoropleth
           scores={averageScores}
-          heightClassName="h-[360px] sm:h-[460px] lg:h-[540px]"
+          heightClassName="h-[280px] sm:h-[420px]"
           caption="Rata-rata skor kemiripan tiap wilayah terhadap 26 wilayah lain."
         />
       </div>

@@ -47,7 +47,7 @@ export function CapabilitiesSection() {
           </p>
         </div>
 
-        <ol className="flex flex-col border-t border-border">
+        <ol className="flex flex-col">
           {CAPABILITIES.map((item, index) => (
             <li
               key={item.title}

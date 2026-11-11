@@ -4,6 +4,15 @@ Platform analitik publik untuk menemukan, mengukur, dan membandingkan kemiripan 
 
 Skor kemiripan menunjukkan kedekatan karakteristik statistik, bukan peringkat kualitas pembangunan.
 
+## Fitur
+
+- Peringkat kemiripan: pilih satu wilayah acuan, lihat 26 wilayah lain diurutkan dari skor tertinggi.
+- Komparasi dua wilayah: 15 indikator berdampingan beserta selisih dan selisih relatif.
+- Bobot indikator: aktifkan atau matikan indikator lalu atur bobotnya; peringkat dihitung ulang langsung.
+- Ringkasan temuan: kalimat otomatis yang menyebut kategori terdekat, kategori paling berjarak, dan indikator penyumbang jarak terbesar.
+- Ekspor data: unduh perbandingan 15 indikator sebagai CSV (pemisah titik koma, desimal koma untuk Excel Indonesia), atau salin ringkasan sebagai teks.
+- Sumber tiap angka: nama publikasi, tabel BPS, dan periode tercatat pada tabel indikator dan halaman Sumber Data.
+
 ## Struktur Repositori
 
 Monorepo ini dikelola menggunakan Turborepo dan Bun:

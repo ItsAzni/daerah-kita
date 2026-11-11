@@ -37,6 +37,8 @@ export function CategoryRadarChart({
     <ChartContainer
       config={config}
       className="mx-auto aspect-square max-h-[340px] w-full"
+      role="img"
+      aria-label={`Radar chart profil lima kategori antara ${labelA} dan ${labelB}`}
     >
       <RadarChart data={data} accessibilityLayer outerRadius="72%">
         <PolarGrid stroke="var(--border)" strokeDasharray="2 4" />
@@ -81,7 +83,10 @@ export function ContributionBarChart({
   const max = Math.max(...data.map((entry) => entry.value), 0.0001)
 
   return (
-    <ol className="flex flex-col border-t border-border">
+    <ol
+      className="flex flex-col border-t border-border"
+      aria-label="Lima indikator dengan kontribusi perbedaan terbesar"
+    >
       {data.map((entry) => (
         <li
           key={entry.name}
@@ -120,7 +125,12 @@ export function CategoryBarChart({
   }
 
   return (
-    <ChartContainer config={config} className="aspect-auto h-[280px] w-full">
+    <ChartContainer
+      config={config}
+      className="aspect-auto h-[280px] w-full"
+      role="img"
+      aria-label={`Grafik batang perbandingan kategori antara ${labelA} dan ${labelB}`}
+    >
       <BarChart
         data={data}
         accessibilityLayer

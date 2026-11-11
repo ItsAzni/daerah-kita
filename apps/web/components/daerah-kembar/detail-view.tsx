@@ -12,6 +12,7 @@ import { TwoRegionMap } from "@/components/maps/two-region-map"
 import { Container, SectionLabel } from "@/components/layout-primitives"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Button } from "@/components/ui/button"
+import { DifferenceBar } from "@/components/ui/score-bar"
 import {
   Table,
   TableBody,
@@ -34,6 +35,7 @@ import {
   describeSimilarity,
   getSimilarityBetween,
   getValue,
+  getNormalizedValue,
 } from "@/lib/similarity"
 import {
   formatDifference,
@@ -94,6 +96,8 @@ export function DetailView({
       value: contribution.share,
     }))
 
+  const top3 = pair.contributions.slice(0, 3)
+
   return (
     <Container className="flex flex-col gap-10 py-10 sm:py-12">
       <header className="flex flex-col gap-6 border-b border-border pb-8">
@@ -134,7 +138,7 @@ export function DetailView({
         </div>
       </header>
 
-      <dl className="grid gap-px overflow-hidden rounded-xl border sm:grid-cols-2">
+      <dl className="grid gap-px overflow-hidden rounded-lg border border-border bg-border sm:grid-cols-2">
         {[regionA, regionB].map((region, index) => (
           <div
             key={region.code}
@@ -172,13 +176,43 @@ export function DetailView({
           </p>
         </div>
 
+        {top3.length > 0 && (
+          <div className="flex flex-wrap gap-x-6 gap-y-1 border-b border-border pb-4">
+            <p className="w-full text-xs text-muted-foreground">
+              Pembeda terbesar
+            </p>
+            {top3.map((c, i) => (
+              <span
+                key={c.indicator_code}
+                className="flex items-baseline gap-1.5 text-sm"
+              >
+                <span className="text-xs text-muted-foreground tabular-nums">
+                  {i + 1}
+                </span>
+                <span className="font-medium">{c.indicator_name}</span>
+                <span className="text-xs text-muted-foreground tabular-nums">
+                  {(c.share * 100).toFixed(1)}%
+                </span>
+              </span>
+            ))}
+          </div>
+        )}
+
+
         <Table>
           <TableHeader>
             <TableRow>
               <TableHead>Indikator</TableHead>
-              <TableHead className="text-right">{regionA.name}</TableHead>
-              <TableHead className="text-right">{regionB.name}</TableHead>
+              <TableHead className="text-right">
+                <span className="hidden sm:inline">{regionA.name}</span>
+                <span className="sm:hidden">A</span>
+              </TableHead>
+              <TableHead className="text-right">
+                <span className="hidden sm:inline">{regionB.name}</span>
+                <span className="sm:hidden">B</span>
+              </TableHead>
               <TableHead className="text-right">Selisih</TableHead>
+              <TableHead className="hidden w-20 sm:table-cell" aria-label="Selisih visual" />
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -191,6 +225,13 @@ export function DetailView({
               const valueB = getValue(regionB.code, indicator.code)
               if (valueA === undefined || valueB === undefined) return null
               const difference = valueA - valueB
+              const normA = getNormalizedValue(regionA.code, indicator.code)
+              const normB = getNormalizedValue(regionB.code, indicator.code)
+              const normDiff =
+                normA !== undefined && normB !== undefined
+                  ? normA - normB
+                  : undefined
+
 
               return (
                 <TableRow key={indicator.code}>
@@ -216,9 +257,18 @@ export function DetailView({
                         </TooltipContent>
                       </Tooltip>
                     </span>
-                    <p className="text-xs text-muted-foreground">
-                      {indicator.category}
-                    </p>
+                    <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                      <span>{indicator.category}</span>
+                      {normDiff !== undefined && (
+                        <span className="sm:hidden">
+                          <DifferenceBar
+                            value={normDiff}
+                            aria-label={`Selisih visual ${indicator.name}`}
+                            className="w-12"
+                          />
+                        </span>
+                      )}
+                    </div>
                   </TableCell>
                   <TableCell className="text-right tabular-nums">
                     {formatIndicatorValue(valueA, indicator.unit)}
@@ -240,6 +290,15 @@ export function DetailView({
                       )}
                       {formatDifference(difference, indicator.unit)}
                     </span>
+                  </TableCell>
+                  <TableCell className="hidden sm:table-cell">
+                    {normDiff !== undefined && (
+                      <DifferenceBar
+                        value={normDiff}
+                        aria-label={`Selisih ternormalisasi ${indicator.name}: ${normDiff > 0 ? "+" : ""}${(normDiff * 100).toFixed(0)}%`}
+                        className="ml-auto w-16"
+                      />
+                    )}
                   </TableCell>
                 </TableRow>
               )
