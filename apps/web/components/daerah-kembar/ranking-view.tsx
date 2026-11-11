@@ -17,6 +17,7 @@ import {
 import { JabarChoropleth } from "@/components/maps/jabar-choropleth"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Button } from "@/components/ui/button"
+import { ScoreBar } from "@/components/ui/score-bar"
 import {
   Table,
   TableBody,
@@ -71,6 +72,32 @@ export function RankingView({ region }: { region: Region }) {
     Object.values(settings.weights).reduce((sum, weight) => sum + weight, 0)
   )
   const topScore = ranking[0]?.similarity_score
+  const bottomScore = ranking.at(-1)?.similarity_score
+  const avgScore =
+    ranking.length > 0
+      ? Math.round(
+          ranking.reduce((sum, r) => sum + r.similarity_score, 0) /
+            ranking.length
+        )
+      : undefined
+  const medianScore =
+    ranking.length > 0
+      ? ranking[Math.floor(ranking.length / 2)]?.similarity_score
+      : undefined
+
+  const histogram = Array.from({ length: 10 }, (_, i) => {
+    const lo = i * 10
+    const hi = lo + 10
+    return {
+      label: `${lo}`,
+      count: ranking.filter(
+        (r) =>
+          r.similarity_score >= lo &&
+          (i === 9 ? r.similarity_score <= 100 : r.similarity_score < hi)
+      ).length,
+    }
+  })
+  const histMax = Math.max(...histogram.map((b) => b.count), 1)
 
   return (
     <Container className="flex flex-col gap-8 py-10 sm:py-12">
@@ -138,7 +165,10 @@ export function RankingView({ region }: { region: Region }) {
             </Alert>
           ) : (
             <div className="flex flex-col gap-3">
-              <Table>
+              <Table aria-label={`Peringkat kemiripan 26 wilayah terhadap ${region.name}`}>
+                <caption className="sr-only">
+                  Tabel peringkat kemiripan 26 wilayah terhadap {region.name}.
+                </caption>
                 <TableHeader>
                   <TableRow>
                     <TableHead className="w-10">#</TableHead>
@@ -168,8 +198,15 @@ export function RankingView({ region }: { region: Region }) {
                           <span className="font-medium">
                             {result.region.name}
                           </span>
-                          <span className="text-xs text-muted-foreground">
-                            {regionTypeLabel(result.region.type)}
+                          <span className="flex items-center gap-2">
+                            <span className="text-xs text-muted-foreground">
+                              {regionTypeLabel(result.region.type)}
+                            </span>
+                            <ScoreBar
+                              value={result.similarity_score}
+                              aria-label={`Skor ${result.region.name}: ${formatScore(result.similarity_score)}`}
+                              className="max-w-[80px] sm:hidden"
+                            />
                           </span>
                         </Link>
                       </TableCell>
@@ -222,15 +259,57 @@ export function RankingView({ region }: { region: Region }) {
               </DataRow>
               <DataRow label="Total bobot">{weightTotal}%</DataRow>
               <DataRow label="Skor tertinggi">
-                {topScore !== undefined ? formatScore(topScore) : "-"}
+                {topScore !== undefined ? formatScore(topScore) : "–"}
+              </DataRow>
+              <DataRow label="Skor rata-rata">
+                {avgScore !== undefined ? formatScore(avgScore) : "–"}
+              </DataRow>
+              <DataRow label="Skor median">
+                {medianScore !== undefined ? formatScore(medianScore) : "–"}
               </DataRow>
               <DataRow label="Skor terendah">
-                {ranking.at(-1)
-                  ? formatScore(ranking.at(-1)!.similarity_score)
-                  : "-"}
+                {bottomScore !== undefined ? formatScore(bottomScore) : "–"}
               </DataRow>
             </dl>
-            <p className="pt-2 text-xs text-muted-foreground tabular-nums">
+
+            {ranking.length > 0 && (
+              <div className="flex flex-col gap-2 pt-2">
+                <p className="text-xs text-muted-foreground">
+                  Distribusi skor (per 10 poin)
+                </p>
+                <div
+                  className="flex h-16 items-end gap-0.5"
+                  role="img"
+                  aria-label={`Histogram distribusi skor kemiripan ${region.name}. Rentang 0–100 dibagi 10 bucket.`}
+                >
+                  {histogram.map((bucket) => (
+                    <div
+                      key={bucket.label}
+                      className="group relative flex flex-1 flex-col items-center justify-end"
+                    >
+                      <div
+                        aria-hidden="true"
+                        className="w-full rounded-sm bg-foreground/20 transition-colors group-hover:bg-foreground/40"
+                        style={{
+                          height: `${Math.max(2, (bucket.count / histMax) * 100)}%`,
+                        }}
+                      />
+                      <span className="sr-only">
+                        {bucket.label}–{Number(bucket.label) + 9}: {bucket.count}{" "}
+                        wilayah
+                      </span>
+                    </div>
+                  ))}
+                </div>
+                <div className="flex justify-between text-xs text-muted-foreground tabular-nums">
+                  <span>0</span>
+                  <span>50</span>
+                  <span>100</span>
+                </div>
+              </div>
+            )}
+
+            <p className="text-xs text-muted-foreground tabular-nums">
               Koordinat pusat wilayah: {region.latitude}, {region.longitude}
             </p>
             <Button

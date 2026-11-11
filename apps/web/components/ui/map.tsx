@@ -309,10 +309,8 @@ const Map = forwardRef<MapRef, MapProps>(function Map(
   const initOptionsRef = useRef({ props, viewport, resolvedTheme, mapStyles })
   initOptionsRef.current = { props, viewport, resolvedTheme, mapStyles }
 
-  // Expose the map instance to the parent component
   useImperativeHandle(ref, () => mapInstance as MapLibreGL.Map, [mapInstance])
 
-  // Initialize the map once maplibre-gl has loaded
   useEffect(() => {
     let cancelled = false
     let map: MapLibreGL.Map | undefined
@@ -342,7 +340,6 @@ const Map = forwardRef<MapRef, MapProps>(function Map(
         if (!instance.painter) throw new lib.GPUInitializationError({}, null)
         map = instance
 
-        // Track load state
         instance.on("load", () => setIsLoaded(true))
         instance.on("style.load", () => {
           styleSwapInFlightRef.current = false
@@ -354,7 +351,6 @@ const Map = forwardRef<MapRef, MapProps>(function Map(
           onViewportChangeRef.current?.(getViewport(instance))
         })
 
-        // set values for context
         setMapLib(lib)
         setMapInstance(instance)
       })
@@ -376,7 +372,6 @@ const Map = forwardRef<MapRef, MapProps>(function Map(
     }
   }, [])
 
-  // Sync controlled viewport to map
   useEffect(() => {
     if (!mapInstance || !isControlled || !viewport) return
     if (mapInstance.isMoving()) return
@@ -712,7 +707,6 @@ function MarkerPopup({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [map])
 
-  // Sync popup options when they change.
   useEffect(() => {
     popup.setOffset(offset ?? 16)
     if (maxWidth) {
@@ -787,7 +781,6 @@ function MarkerTooltip({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [map])
 
-  // Sync tooltip options when they change.
   useEffect(() => {
     tooltip.setOffset(offset ?? 16)
     if (maxWidth) {
@@ -1119,7 +1112,6 @@ function MapPopup({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [map])
 
-  // Sync popup position and options when they change.
   useEffect(() => {
     const current = popup.getLngLat()
     if (!current || current.lng !== longitude || current.lat !== latitude) {
@@ -1414,7 +1406,6 @@ function MapRoute({
     }
   }, [])
 
-  // Add source and layer on mount
   useEffect(() => {
     if (!isLoaded || !map) return
 
@@ -1459,7 +1450,6 @@ function MapRoute({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isLoaded, map])
 
-  // When coordinates change, update the source data
   useEffect(() => {
     if (!isLoaded || !map) return
 
@@ -1535,7 +1525,6 @@ function MapRoute({
     }
   }, [ready, map, active, layerId, beforeId])
 
-  // Handle click and hover events
   useEffect(() => {
     if (!isLoaded || !map || !interactive) return
 
@@ -1870,7 +1859,6 @@ function MapGeoJSON<
   const latestRef = useRef({ onClick, onHover })
   latestRef.current = { onClick, onHover }
 
-  // Add source on mount.
   useEffect(() => {
     if (!isLoaded || !map) return
 
@@ -1892,7 +1880,6 @@ function MapGeoJSON<
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isLoaded, map])
 
-  // Sync data when it changes.
   useEffect(() => {
     if (!isLoaded || !map) return
     const source = map.getSource(sourceId) as
@@ -1900,7 +1887,6 @@ function MapGeoJSON<
     source?.setData(data as never)
   }, [isLoaded, map, data, sourceId])
 
-  // Sync layers and paint when visibility or styling changes.
   useEffect(() => {
     if (!isLoaded || !map) return
 
@@ -1966,7 +1952,6 @@ function MapGeoJSON<
     beforeId,
   ])
 
-  // Interaction handlers (bound to the fill layer).
   useEffect(() => {
     if (!isLoaded || !map || !interactive || !showFill) return
 
@@ -2266,7 +2251,6 @@ function MapArc<T extends MapArcDatum = MapArcDatum>({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isLoaded, map])
 
-  // Sync features when data / curvature / samples change.
   useEffect(() => {
     if (!isLoaded || !map) return
     const source = map.getSource(sourceId) as
@@ -2274,7 +2258,6 @@ function MapArc<T extends MapArcDatum = MapArcDatum>({
     source?.setData(geoJSON)
   }, [isLoaded, map, geoJSON, sourceId])
 
-  // Sync paint/layout when they change.
   useEffect(() => {
     if (!isLoaded || !map || !map.getLayer(layerId)) return
     for (const [key, value] of Object.entries(mergedPaint)) {
@@ -2296,7 +2279,6 @@ function MapArc<T extends MapArcDatum = MapArcDatum>({
     }
   }, [isLoaded, map, layerId, hitLayerId, mergedPaint, mergedLayout, hitWidth])
 
-  // Interaction handlers
   useEffect(() => {
     if (!isLoaded || !map || !interactive) return
 
@@ -2435,11 +2417,9 @@ function MapClusterLayer<
     pointColor,
   })
 
-  // Add source and layers on mount
   useEffect(() => {
     if (!isLoaded || !map) return
 
-    // Add clustered GeoJSON source
     map.addSource(sourceId, {
       type: "geojson",
       data,
@@ -2448,7 +2428,6 @@ function MapClusterLayer<
       clusterRadius,
     })
 
-    // Add cluster circles layer
     map.addLayer({
       id: clusterLayerId,
       type: "circle",
@@ -2479,7 +2458,6 @@ function MapClusterLayer<
       },
     })
 
-    // Add cluster count text layer
     map.addLayer({
       id: clusterCountLayerId,
       type: "symbol",
@@ -2495,7 +2473,6 @@ function MapClusterLayer<
       },
     })
 
-    // Add unclustered point layer
     map.addLayer({
       id: unclusteredLayerId,
       type: "circle",
@@ -2524,7 +2501,6 @@ function MapClusterLayer<
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isLoaded, map, sourceId])
 
-  // Update source data when data prop changes (only for non-URL data)
   useEffect(() => {
     if (!isLoaded || !map || typeof data === "string") return
 
@@ -2534,7 +2510,6 @@ function MapClusterLayer<
     }
   }, [isLoaded, map, data, sourceId])
 
-  // Update layer styles when props change
   useEffect(() => {
     if (!isLoaded || !map) return
 
@@ -2543,7 +2518,6 @@ function MapClusterLayer<
       prev.clusterColors !== clusterColors ||
       prev.clusterThresholds !== clusterThresholds
 
-    // Update cluster layer colors and sizes
     if (map.getLayer(clusterLayerId) && colorsChanged) {
       map.setPaintProperty(clusterLayerId, "circle-color", [
         "step",
@@ -2565,7 +2539,6 @@ function MapClusterLayer<
       ])
     }
 
-    // Update unclustered point layer color
     if (map.getLayer(unclusteredLayerId) && prev.pointColor !== pointColor) {
       map.setPaintProperty(unclusteredLayerId, "circle-color", pointColor)
     }
@@ -2581,11 +2554,9 @@ function MapClusterLayer<
     pointColor,
   ])
 
-  // Handle click events
   useEffect(() => {
     if (!isLoaded || !map) return
 
-    // Cluster click handler - zoom into cluster
     const handleClusterClick = async (
       e: MapLibreGL.MapMouseEvent & {
         features?: MapLibreGL.MapGeoJSONFeature[]
@@ -2617,7 +2588,6 @@ function MapClusterLayer<
       }
     }
 
-    // Unclustered point click handler
     const handlePointClick = (
       e: MapLibreGL.MapMouseEvent & {
         features?: MapLibreGL.MapGeoJSONFeature[]
@@ -2641,7 +2611,6 @@ function MapClusterLayer<
       )
     }
 
-    // Cursor style handlers
     const handleMouseEnterCluster = () => {
       map.getCanvas().style.cursor = "pointer"
     }

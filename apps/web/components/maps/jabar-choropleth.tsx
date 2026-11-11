@@ -163,6 +163,8 @@ export function JabarChoropleth({
     [ramp, domain]
   )
 
+  const captionId = React.useId()
+
   return (
     <figure className="flex flex-col gap-3">
       <div
@@ -172,6 +174,7 @@ export function JabarChoropleth({
             ? "Peta 27 kabupaten/kota Jawa Barat. Warna menunjukkan skor kemiripan; nilai lengkap ada pada tabel di halaman ini."
             : "Peta 27 kabupaten/kota Jawa Barat."
         }
+        aria-describedby={caption ? captionId : undefined}
         className={cn(
           "relative w-full overflow-hidden rounded-2xl border border-border bg-muted/30",
           heightClassName
@@ -259,7 +262,7 @@ export function JabarChoropleth({
           <span className="tabular-nums">{scores ? domain.max : 100}</span>
         </span>
         {caption ? (
-          <span className="max-w-md text-xs text-muted-foreground">
+          <span id={captionId} className="max-w-md text-xs text-muted-foreground">
             {caption}
           </span>
         ) : null}

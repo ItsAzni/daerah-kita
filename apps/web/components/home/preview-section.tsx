@@ -3,6 +3,7 @@ import { ArrowRight } from "lucide-react"
 
 import { Container, SectionLabel } from "@/components/layout-primitives"
 import { Button } from "@/components/ui/button"
+import { ScoreBar } from "@/components/ui/score-bar"
 import {
   Table,
   TableBody,
@@ -15,7 +16,6 @@ import { INDICATORS, INDICATOR_CATEGORIES } from "@/data/indicators"
 import { REGIONS } from "@/data/regions"
 import { formatScore } from "@/lib/format"
 import { countMatchedIndicators, rankRegions } from "@/lib/similarity"
-
 const SAMPLE_CODE = "3273"
 const sampleRegion = REGIONS.find((region) => region.code === SAMPLE_CODE)
 const sampleRanking = rankRegions(SAMPLE_CODE).slice(0, 5)
@@ -26,7 +26,7 @@ export function PreviewSection() {
   return (
     <section
       aria-labelledby="preview-heading"
-      className="border-b border-border"
+
     >
       <Container className="flex flex-col gap-10 py-16">
         <div className="flex flex-col gap-4">
@@ -51,7 +51,9 @@ export function PreviewSection() {
                   <TableHead className="w-10">#</TableHead>
                   <TableHead>Wilayah</TableHead>
                   <TableHead className="text-right">Skor</TableHead>
-                  <TableHead className="text-right">Indikator cocok</TableHead>
+                  <TableHead className="hidden text-right sm:table-cell">
+                    Indikator cocok
+                  </TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -62,10 +64,17 @@ export function PreviewSection() {
                     </TableCell>
                     <TableCell>
                       <Link
-                        className="flex min-h-11 items-center font-medium underline-offset-4 hover:underline md:min-h-0"
+                        className="flex min-h-11 flex-col justify-center underline-offset-4 hover:underline md:min-h-0"
                         href={`/daerah-kembar/${SAMPLE_CODE}/${result.region.code}`}
                       >
-                        {result.region.name}
+                        <span className="font-medium">
+                          {result.region.name}
+                        </span>
+                        <ScoreBar
+                          value={result.similarity_score}
+                          aria-label={`Skor kemiripan ${result.region.name}: ${formatScore(result.similarity_score)} dari 100`}
+                          className="mt-1.5 max-w-[120px]"
+                        />
                       </Link>
                     </TableCell>
                     <TableCell className="text-right tabular-nums">
@@ -73,7 +82,7 @@ export function PreviewSection() {
                         {formatScore(result.similarity_score)}
                       </span>
                     </TableCell>
-                    <TableCell className="text-right tabular-nums">
+                    <TableCell className="hidden text-right tabular-nums sm:table-cell">
                       <span className="text-muted-foreground">
                         {countMatchedIndicators(result.contributions)} dari{" "}
                         {result.matched_indicators}
@@ -83,10 +92,6 @@ export function PreviewSection() {
                 ))}
               </TableBody>
             </Table>
-            <p className="text-xs text-muted-foreground">
-              Sumber: BPS Provinsi Jawa Barat (2025/2026). Skor bukan peringkat
-              kualitas daerah.
-            </p>
           </div>
 
           <div className="flex flex-col gap-6">
@@ -95,28 +100,47 @@ export function PreviewSection() {
                 Cakupan indikator
               </h3>
               <p className="text-sm text-muted-foreground">
-                Lima kategori, tiga indikator per kategori, terisi lengkap untuk
-                27 wilayah.
+                Lima kategori, {INDICATORS.length} indikator, tersedia untuk 27
+                wilayah.
               </p>
             </div>
-            <dl className="flex flex-col border-t border-border">
+
+            <dl
+              className="flex flex-col gap-2"
+              aria-label="Jumlah indikator per kategori"
+            >
               {INDICATOR_CATEGORIES.map((category) => {
-                const indicators = INDICATORS.filter(
+                const count = INDICATORS.filter(
                   (indicator) => indicator.category === category
-                )
+                ).length
+                const pct = Math.round((count / INDICATORS.length) * 100)
                 return (
-                  <div
-                    key={category}
-                    className="flex items-baseline justify-between gap-4 border-b border-border py-3"
-                  >
-                    <dt className="text-sm">{category}</dt>
-                    <dd className="text-xs text-muted-foreground tabular-nums">
-                      {indicators.length} indikator
-                    </dd>
+                  <div key={category} className="flex flex-col gap-1">
+                    <div className="flex items-baseline justify-between gap-4">
+                      <dt className="text-sm">{category}</dt>
+                      <dd className="text-xs text-muted-foreground tabular-nums">
+                        {count}
+                      </dd>
+                    </div>
+                    <div
+                      role="meter"
+                      aria-label={`${category}: ${count} indikator`}
+                      aria-valuenow={count}
+                      aria-valuemin={0}
+                      aria-valuemax={INDICATORS.length}
+                      className="h-1.5 w-full overflow-hidden rounded-full bg-muted"
+                    >
+                      <div
+                        aria-hidden="true"
+                        className="h-full rounded-full bg-foreground"
+                        style={{ width: `${pct}%` }}
+                      />
+                    </div>
                   </div>
                 )
               })}
             </dl>
+
             <Button
               variant="outline"
               className="min-h-11 w-fit md:min-h-9"

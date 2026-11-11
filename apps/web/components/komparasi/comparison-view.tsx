@@ -138,6 +138,20 @@ export function ComparisonView() {
         }))
     : []
 
+  const topDiffCategory =
+    chartData.length > 0
+      ? chartData.reduce((best, entry) =>
+          Math.abs(entry.a - entry.b) > Math.abs(best.a - best.b) ? entry : best
+        )
+      : null
+  const topDiffLeader =
+    topDiffCategory && regionA && regionB
+      ? topDiffCategory.a > topDiffCategory.b
+        ? regionA.name
+        : regionB.name
+      : null
+
+
   return (
     <Container className="flex flex-col gap-10 py-10 sm:py-12">
       <header className="flex flex-col gap-6 border-b border-border pb-8">
@@ -212,6 +226,19 @@ export function ComparisonView() {
                   {pair.matched_indicators} indikator dihitung
                 </p>
               </div>
+              {topDiffCategory && topDiffLeader && (
+                <p className="text-sm text-muted-foreground">
+                  Perbedaan terbesar ada di{" "}
+                  <span className="font-medium text-foreground">
+                    {topDiffCategory.category}
+                  </span>
+                  {" "}— {topDiffLeader} lebih tinggi{" "}
+                  <span className="tabular-nums">
+                    {Math.abs(topDiffCategory.a - topDiffCategory.b).toFixed(1)}
+                  </span>{" "}
+                  poin.
+                </p>
+              )}
               <CategoryBarChart
                 data={chartData}
                 labelA={regionA.name}

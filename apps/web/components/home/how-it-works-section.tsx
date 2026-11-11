@@ -51,7 +51,7 @@ export function HowItWorksSection() {
           </Button>
         </div>
 
-        <Accordion defaultValue={["data"]}>
+        <Accordion>
           <AccordionItem value="data">
             <AccordionTrigger>
               Data dikumpulkan dari publikasi resmi
@@ -84,35 +84,58 @@ export function HowItWorksSection() {
               {IPM_RANGE &&
               bandungIpm !== undefined &&
               bekasiIpm !== undefined ? (
-                <dl className="flex flex-col border-t border-border text-sm">
-                  <div className="flex items-baseline justify-between gap-4 py-2">
-                    <dt className="text-muted-foreground">Rentang IPM</dt>
-                    <dd className="tabular-nums">
-                      {formatDecimal(IPM_RANGE.min)} sampai{" "}
-                      {formatDecimal(IPM_RANGE.max)}
-                    </dd>
+                <div className="flex flex-col gap-3 border-t border-border pt-3">
+                  <div className="flex items-baseline justify-between text-xs text-muted-foreground">
+                    <span>Rentang IPM Jabar ({formatDecimal(IPM_RANGE.min)} – {formatDecimal(IPM_RANGE.max)})</span>
+                    <span>Normalisasi (0 – 1)</span>
                   </div>
-                  <div className="flex items-baseline justify-between gap-4 border-t border-border py-2">
-                    <dt className="text-muted-foreground">
-                      Kota Bandung
-                      {bandungIpmRaw !== undefined
-                        ? `, ${formatDecimal(bandungIpmRaw)}`
-                        : ""}
-                    </dt>
-                    <dd className="tabular-nums">
-                      {formatDecimal(bandungIpm)}
-                    </dd>
+                  <div className="flex flex-col gap-2.5">
+                    <div className="flex flex-col gap-1">
+                      <div className="flex items-baseline justify-between text-sm">
+                        <span className="font-medium">Kota Bandung</span>
+                        <span className="text-xs text-muted-foreground tabular-nums">
+                          IPM {bandungIpmRaw !== undefined ? formatDecimal(bandungIpmRaw) : ""} → {formatDecimal(bandungIpm)}
+                        </span>
+                      </div>
+                      <div
+                        role="meter"
+                        aria-label={`Normalisasi IPM Kota Bandung: ${formatDecimal(bandungIpm)}`}
+                        aria-valuenow={bandungIpm}
+                        aria-valuemin={0}
+                        aria-valuemax={1}
+                        className="h-1.5 w-full overflow-hidden rounded-full bg-muted"
+                      >
+                        <div
+                          aria-hidden="true"
+                          className="h-full rounded-full bg-foreground"
+                          style={{ width: `${bandungIpm * 100}%` }}
+                        />
+                      </div>
+                    </div>
+                    <div className="flex flex-col gap-1">
+                      <div className="flex items-baseline justify-between text-sm">
+                        <span className="font-medium">Kota Bekasi</span>
+                        <span className="text-xs text-muted-foreground tabular-nums">
+                          IPM {bekasiIpmRaw !== undefined ? formatDecimal(bekasiIpmRaw) : ""} → {formatDecimal(bekasiIpm)}
+                        </span>
+                      </div>
+                      <div
+                        role="meter"
+                        aria-label={`Normalisasi IPM Kota Bekasi: ${formatDecimal(bekasiIpm)}`}
+                        aria-valuenow={bekasiIpm}
+                        aria-valuemin={0}
+                        aria-valuemax={1}
+                        className="h-1.5 w-full overflow-hidden rounded-full bg-muted"
+                      >
+                        <div
+                          aria-hidden="true"
+                          className="h-full rounded-full bg-foreground/50"
+                          style={{ width: `${bekasiIpm * 100}%` }}
+                        />
+                      </div>
+                    </div>
                   </div>
-                  <div className="flex items-baseline justify-between gap-4 border-t border-border py-2">
-                    <dt className="text-muted-foreground">
-                      Kota Bekasi
-                      {bekasiIpmRaw !== undefined
-                        ? `, ${formatDecimal(bekasiIpmRaw)}`
-                        : ""}
-                    </dt>
-                    <dd className="tabular-nums">{formatDecimal(bekasiIpm)}</dd>
-                  </div>
-                </dl>
+                </div>
               ) : null}
               <p>
                 Setelah itu jarak dihitung dengan Weighted Euclidean Distance,
@@ -133,15 +156,45 @@ export function HowItWorksSection() {
                 dipetakan secara linear.
               </p>
               {pair ? (
-                <p>
-                  Dengan bobot setara, Kota Bandung dan Kota Bekasi memperoleh
-                  skor{" "}
-                  <span className="font-medium text-foreground tabular-nums">
-                    {formatScore(pair.similarity_score)}
-                  </span>{" "}
-                  dari {pair.matched_indicators} indikator. Selisih terbesar ada
-                  pada {pair.contributions[0]?.indicator_name.toLowerCase()}.
-                </p>
+                <div className="flex flex-col gap-3">
+                  <p>
+                    Dengan bobot setara, Kota Bandung dan Kota Bekasi memperoleh
+                    skor{" "}
+                    <span className="font-medium text-foreground tabular-nums">
+                      {formatScore(pair.similarity_score)}
+                    </span>{" "}
+                    dari {pair.matched_indicators} indikator. Selisih terbesar ada
+                    pada {pair.contributions[0]?.indicator_name.toLowerCase()}.
+                  </p>
+                  <div className="flex flex-col gap-1.5 border-t border-border pt-3">
+                    <div className="flex justify-between text-xs text-muted-foreground">
+                      <span>0 (Sangat berbeda)</span>
+                      <span className="font-medium text-foreground tabular-nums">
+                        Skor: {formatScore(pair.similarity_score)}
+                      </span>
+                      <span>100 (Identik)</span>
+                    </div>
+                    <div
+                      role="meter"
+                      aria-label={`Skor kemiripan Bandung dan Bekasi: ${formatScore(pair.similarity_score)} dari 100`}
+                      aria-valuenow={pair.similarity_score}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      className="relative h-2 w-full rounded-full bg-muted"
+                    >
+                      <div
+                        aria-hidden="true"
+                        className="h-full rounded-full bg-foreground"
+                        style={{ width: `${pair.similarity_score}%` }}
+                      />
+                      <div
+                        aria-hidden="true"
+                        className="absolute top-1/2 size-3.5 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-background bg-foreground shadow-sm"
+                        style={{ left: `${pair.similarity_score}%` }}
+                      />
+                    </div>
+                  </div>
+                </div>
               ) : null}
               <p>
                 Skor tinggi berarti karakteristik statistiknya dekat, bukan
